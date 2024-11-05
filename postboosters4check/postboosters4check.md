@@ -22,13 +22,13 @@
 8. Under **Users for Inbount Communication**, click **+** button.
 ![postboosters4](8.jpg)
 
-9. Click **New User** button.
+9. Click **New User** button.</br>
 ![postboosters4](9.jpg)
 
-10. Specify and **UserName** and **Description of your choice.  Either type your own password or use the **Propose Password** button to let the system generate a password.  Make a note of the **UserName** and **Password** as this will be required later for SAP Cloud Identity Provisioning setup.  Click the **Create** button.
+10. Specify and **UserName** and **Description** of your choice.  Either type your own password or use the **Propose Password** button to let the system generate a password.  Make a note of the **UserName** and **Password** as this will be required later for SAP Cloud Identity Provisioning setup.  Click the **Create** button.</br>
 ![postboosters4](10.jpg)
 
-11. Click **OK**.
+11. Click **OK**.</br>
 ![postboosters4](11.jpg)
 
 12. Confirm that the user you just created is listed under the **Users for Inbound Communication** area and click **Save**.</br>
