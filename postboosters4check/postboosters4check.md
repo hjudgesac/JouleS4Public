@@ -1,4 +1,3 @@
-## Check S/4 Cloud Destinations setup in BTP Subaccount
 1. Access your S/4HANA Cloud System and launch the **Communication Arrangements** application.</br>
    ![postboosters4](1.jpg)
    
