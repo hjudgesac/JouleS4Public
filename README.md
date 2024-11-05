@@ -1,22 +1,14 @@
-Solution Overview
+Validate S/4 Specific Config After Booster
+ * Destinations 4 + Navigation Service
+ * WorkZone Content Provider
+ * S/4 Communicaton Systems/Arrangements/CommUser
+ *  Note about exposed roles
 
-Prepare for Activation
+Create Comm System for User Replication
+Create Source/Target System in IPS
+Run Job
+Update content Security Policies
+Test Joule
 
-Register System
 
-Create Subaccount
 
-Create Trust
-
-Validate IAS application settings
- Identity Federation
-
-Create WorkZone
-
-Run Booster
-
-Post Booster Validation and Configuration
- Formations Created Successfully
- Joule Subscription Created
- Apps created in IAS
- Destinations created in BTP/Create Navigation Service Destinations
