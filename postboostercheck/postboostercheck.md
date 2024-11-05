@@ -11,6 +11,22 @@
 
 ## Check Content Provider in SAP Build Work Zone
 **NOTE**: The Joule booster automatically creates a content provider in SAP Build Work Zone using the Runtime and Designtime destinations mentioned above.
+1. From the Navigation Pane in BTP Cockpit, select **Security >> Users** and click the arrow to open user details.</br>
+![postboosters4](2-1.jpg)
+
+2. Click **Assign Role Collections**.</br> 
+![create_content_provider](2-2.jpg)   
+
+3. Select the **Launchpad_Admin** and click **Assign Role Collection**.</br>
+![create_content_provider](15.jpg) 
+
+4. From the Navigation Pane on the left, select **Instances and Subscriptions***. Click **SAP Build Work Zone, standard edition** to launch the application.</br>  
+![create_content_provider](16.jpg) 
+
+5. Select **Default Identity Provider**.</br>
+![create_content_provider](17.jpg)
+
+
 1. From the Navigation Pane on the left, select **Instances and Subscriptions***. Click **SAP Build Work Zone, standard edition** to launch the application.</br>  
 ![postboosters4](3.jpg) 
 
