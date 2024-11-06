@@ -25,7 +25,7 @@
 
 8. Select the **S4-myS4-source-joule.json** file downloaded earlier and click **Open**.
 
-9. Update **myS4** portion in the **System Name** field to reflect your S/4HANA instance and click **Save**.</br>
+9. Update the **System Name** field to reflect your S/4HANA instance.</br>
 ![configure_ips](5.jpg)
 
 10. Click on **Properties** and replace the placeholder values with appropriate values for your setup using the information below:
@@ -62,10 +62,3 @@
  ![configure_ips](11.jpg)
  
  7. Click **Save**.
- * Certificate File: Upload the certificate file downloaded from the SuccessFactors source system we created in earlier steps.
- * Login Name: <--Leave blank--></br>
-![configure_ips](15.jpg)
-
-8. Confirm the certificate is successfully uploaded in SuccessFactors.</br>              
-![configure_ips](16.jpg)
-
