@@ -4,7 +4,7 @@
 **Note**: A file should be automatically downloaded into your downloads folder.
 2. Extract the zip file into a folder of your choice.  Confirm that the following 2 files are visible in the extracted folder:
    * **S4-myS4-source-joule.json**
-   * **WorkZone_Target_ForJoule.json**</br>
+   * **WorkZone_Target_ForS4Joule.json**</br>
 ![configure_ips](0-2.jpg)
 
 3. Access the administration console of SAP Cloud Identity Services tenant using one of the URL formats below:
