@@ -15,8 +15,8 @@
 ![run_ips_job](3.jpg)
 
 7. Confirm the job executes successfully.                   
-**Note**: It may take few minutes for the job to appear in this interface.  The job execution time will also vary depending upon number of users being read.  It may take up to 15 minutes to provision few users and groups that meet the filter criteria specified in the job properties.  For full user synch it can take several hours.</br>
+**Note**: It may take few minutes for the job to appear in this interface.  The job execution time will also vary depending upon number of users and groups being read.</br>
 ![run_ips_jobr](4.jpg)
 
 8. Click the job to view the **Job Execution Details** and confirm users and groups that meet the filter criteria are created in Work Zone application.</br>  
-![run_ips_job](5.jpg)
+![run_ips_job](6.jpg)
