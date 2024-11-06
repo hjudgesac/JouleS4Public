@@ -5,7 +5,7 @@
 
 2. Authenticate using an administrator user.                 
 3. From the menu, access **Identity Provisioning >> Source Systems**.
-4. Under **Source Systems** select the source system we created earlier for Joule integration and click **Job**.</br>
+4. Under **Source Systems** select the source system we created earlier for Joule integration and click **Jobs**.</br>
 ![run_ips_job](1.jpg)
 
 5. Click **Run Now** to run the **Read job**.</br>             
