@@ -31,8 +31,7 @@
 10. Click on **Properties** and replace the placeholder values with appropriate values for your setup using the information below:
   * **URL** : Specify your S/4HANA Cloud URL.  For e.g. https://myXXXXXX.s4hana.cloud.sap.
   * **User** : Specify the Communication User created in earlier steps.  For eg. JOULE_IPS_USER
-  * **Password**: Password of the Communication User.            
-</br>
+  * **Password**: Password of the Communication User.</br>
   ![configure_ips](6.jpg)
 
 11. Click **Save**.
