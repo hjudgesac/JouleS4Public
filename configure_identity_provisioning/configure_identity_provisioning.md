@@ -1,6 +1,6 @@
 ## **Configure SuccessFactors as Source System in Identity Provisioning**
 
-1. Download [**IdentityProvisioningFiles.zip**](https://github.com/hjudgesac/joule_integration_sfsf_public/raw/main/configure_identity_provisioning/files/IdentityProvisioningFiles.zip) that contains the pre-defined source and target systems required to setup this configuration.</br>
+1. Download [**IdentityProvisioningFilesS4C.zip**](https://github.com/hjudgesac/joule_integration_sfsf_public/raw/main/configure_identity_provisioning/files/IdentityProvisioningFiles.zip) that contains the pre-defined source and target systems required to setup this configuration.</br>
 **Note**: A file should be automatically downloaded into your downloads folder.
 2. Extract the zip file into a folder of your choice.  Confirm that the following 2 files are visible in the extracted folder:
    * **S4-myS4-source-joule.json**
