@@ -3,7 +3,7 @@ Before you can activate Joule there are certain number of pre-requisites that mu
 ## 1. User Personas Required for Joule activation
 
 Activation of Joule requires configuration in multiple systems.  It's important to have the right stakeholders involved when setting up the configuration.  In order to setup Joule the following user personas are required:
-* Admins of the system for which Joule will be setup.  For example, SAP SuccessFactors, SAP S/4HANA Cloud Admin etc.
+* Admins of the system for which Joule will be setup.  For example, SAP SuccessFactors, SAP S/4HANA Cloud Public Edition Admin etc.
 * SAP BTP Global Account Admin
 * SAP Cloud Identity Services Admin
   
@@ -50,10 +50,6 @@ The picture below depicts the process to follow to determine data center selecti
  ![Preparation](4.jpg)
 For Step 1, review the list of Joule supported data centers from the help page: [Data Centers Supported for Joule](https://help.sap.com/docs/joule/serviceguide/data-centers-supported-by-joule)</br>
 Step 2 requires finding the data centers for the respective applications for which Joule will be setup.  This will be different for each application so refer to specific applicaton documenation to find the respective data centers.</br>
-SuccessFactors: [2089448 - SuccessFactors Data Center Name, Location, Production Login URL, Production Domain Name, External Mail Server Details and Outbound IP addresses](https://me.sap.com/notes/0002089448)
-SAP S/4HANA Public Cloud: <Placehoder for documenation link>
-IBP Placeholder
-PLM Placholder
 
 Let's take a look at a hypthetical scenario shown in the picture below.  In this scenario, majority of the applications are in North American datacenters so it makes sense to choose one of the North American data centers for Joule setup.  The choice between US EAST (VA), US (Virginia), or US Central (IA) is entirely up to you based on your hyperscaler preference.</br>
  ![Preparation](5.jpg)
@@ -69,7 +65,7 @@ SAP provides a production and non-production instance of SAP Cloud Identity Serv
 
 SAP Applications for which Joule is being setup for must be integrated with SAP Cloud Identity Services using the same domain.  SAP Cloud Identity Services can use ondemand.com or cloud.sap domain hence it's important that apps that will use the same Joule instance have consistency on domain used to integrate with SAP Cloud Identity Services.  If that's not the case in your environment, then it's not possible to use a single Joule instance that works across different SAP applications.
 
-Furthermore, if your SAP Cloud Identity Authentication is setup to use a Corporate Identity Provider, all of your apps must be configured to use the same Corporate Identity Provider.  For example, if you are planning to run the booster for SAP SuccessFactors and SAP S/4HANA Cloud, the conditional authenticaton settings for both of these apps in SAP Cloud Identity Authenticaton Service should be setup the same way.  If that's not the case in your environment, then it's not possible to use a single Joule instance that works across different SAP applications.  The screenshot below depicts a scenario where SuccessFactors is configured to use MS Entra ID while S/4HANA Cloud is setup to use OKTA.  In this scenario, the applicaitions conditional auth settings do not match, hence unified Joule instance can't be used.</br>
+Furthermore, if your SAP Cloud Identity Authentication is setup to use a Corporate Identity Provider, all of your apps must be configured to use the same Corporate Identity Provider.  For example, if you are planning to run the booster for SAP SuccessFactors and SAP S/4HANA Cloud Public Edition, the conditional authenticaton settings for both of these apps in SAP Cloud Identity Authenticaton Service should be setup the same way.  If that's not the case in your environment, then it's not possible to use a single Joule instance that works across different SAP applications.  The screenshot below depicts a scenario where SuccessFactors is configured to use MS Entra ID while SAP S/4HANA Cloud Public Edition is setup to use OKTA.  In this scenario, the applicaitions conditional auth settings do not match, hence unified Joule instance can't be used.</br>
 ![Preparation](8.jpg)
 
 ## 5. Validate Identity Federation Settings in SAP Cloud Identity Services
@@ -83,10 +79,9 @@ To enable this settings, ensure **Use Identity Authentication user store** toggl
 
 ## 6. Register Systems in SAP BTP
 
-To setup Joule for SAP applications, it's important that those applications are registered under BTP **System Landscape**.  It's possible that the applications are already registered automatically or as part of another project.  If that's not the case, you may have to register the applications using the subsequent steps mentioned in this mission.  For the purpose of this mission we are using SAP SuccessFactors and SAP S/4HANA Cloud and those systems are registered already in my BTP system landscape.  Few things to note:
+To setup Joule for SAP applications, it's important that those applications are registered under BTP **System Landscape**.  It's possible that the applications are already registered automatically or as part of another project.  If that's not the case, you may have to register the applications using the subsequent steps mentioned in this mission.  For the purpose of this mission we are using SAP SuccessFactors and SAP S/4HANA Cloud Public Edition and those systems are registered already in my BTP system landscape.  Few things to note:
   * Register a new system only if it's not already there.
-  * System Type of **SAP Cloud Identity Services** should already be listed by default.  Ensure that the SAP Cloud Identity Services tenant for the applications 
-    that are in scope for Joule setup is listed.
-  * Not all systems have to registered up front.  For example, if you are only going to run the booster for S/4HANA Cloud, there is no need to ensure that 
-    SuccessFactors is also registerd under the System Landscape.</br>
+  * System Type of **SAP Cloud Identity Services** should already be listed by default.  Ensure that the SAP Cloud Identity Services tenant for the applications that are in scope for Joule setup is listed.
+  * Not all systems have to registered up front.  For example, if you are only going to run the booster for SAP S/4HANA Cloud Public Edition, there is no need to ensure that SAP SuccessFactors is also registerd under the 
+    System Landscape.</br>
 ![Preparation](10.jpg)
