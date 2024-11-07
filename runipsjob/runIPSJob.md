@@ -18,5 +18,5 @@
 **Note**: It may take few minutes for the job to appear in this interface.  The job execution time will also vary depending upon number of users and groups being read.</br>
 ![run_ips_jobr](4.jpg)
 
-8. Click the job to view the **Job Execution Details** and confirm users and groups that meet the filter criteria are created in Work Zone application.</br>  
+8. Click the job to view the **Job Execution Details** and confirm users and groups that meet the filter criteria are created in SAP Build Work Zone application.</br>  
 ![run_ips_job](6.jpg)
