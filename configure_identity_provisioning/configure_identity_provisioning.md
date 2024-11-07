@@ -25,15 +25,15 @@
 
 8. Select the **S4-myS4-source-joule.json** file downloaded earlier and click **Open**.
 
-9. Update the **System Name** field to reflect your S/4HANA instance.</br>
+9. Update the **System Name** field to reflect your SAP S/4HANA Cloud Public Edition system.</br>
 ![configure_ips](5.jpg)
 
 10. Click on **Properties** and replace the placeholder values with appropriate values for your setup using the information below:
-  * **URL** : Specify your S/4HANA Cloud URL.  For e.g. https://myXXXXXX.s4hana.cloud.sap.
+  * **URL** : Specify your SAP S/4HANA Cloud Public Edition URL.  For e.g. https://myXXXXXX.s4hana.cloud.sap.
   * **User** : Specify the Communication User created in earlier steps.  For eg. JOULE_IPS_USER
   * **Password**: Password of the Communication User.</br>
   **NOTE**: Optionally add the **s4hana.cloud.roles.filter** property with value **cFLPExposure eq true**.  Use this option only if you want Identity Provisioning 
-  Service to only read roles from S/4HANA Cloud that have **Expose to SAP BTP** property enabled.  See [Select Roles for Exposure](https://help.sap.com/docs/SAP_S4HANA_CLOUD/4fc8d03390c342da8a60f8ee387bca1a/e0ba77cfec8b4b05ab8ccb163b914f67.html?locale=de-DEversion=2208.503&version=2408.VAL)
+  Service to only read roles from SAP S/4HANA Cloud Public Edition that have **Expose to SAP BTP** property enabled.  See [Select Roles for Exposure](https://help.sap.com/docs/SAP_S4HANA_CLOUD/4fc8d03390c342da8a60f8ee387bca1a/e0ba77cfec8b4b05ab8ccb163b914f67.html?locale=de-DEversion=2208.503&version=2408.VAL)
   ![configure_ips](6.jpg)
 
 11. Click **Save**.
