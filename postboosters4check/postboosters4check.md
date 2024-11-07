@@ -5,7 +5,8 @@
    ![postboosters4](2.jpg)
    
 3. Click the Communication Arrangement with Scenario ID **SAP_COM_0647** and validate the configuration.  Note that **Exposure Role Selection** is set to **ALL**.</br>
-![postboosters4](3.jpg)
+**NOTE**: For more information on this setting, refer to the [help guide](https://help.sap.com/docs/SAP_S4HANA_CLOUD/4fc8d03390c342da8a60f8ee387bca1a/4efaa144b2864db3b49db54242581620.html?locale=de-DEversion=2208.503&version=2408.VAL)
+![postboosters4](3.jpg).
 
 4. Launch the **Communication Systems** application.
 ![postboosters4](4.jpg)
