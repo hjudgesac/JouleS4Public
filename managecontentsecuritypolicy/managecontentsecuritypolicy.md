@@ -1,7 +1,7 @@
 1. Access **Manage Content Security Policy** application in your SAP S/4HANA Cloud Public Edition.</br>
   ![contentsecuritypolicy](1.jpg)
 
-2. Navigate to **Trusted Sites** tab and click **Managed By** section for **UI_RESOURCES_SCRIPTS**.
+2. Navigate to **Trusted Sites** tab and click **Managed By** section for **UI_RESOURCES_SCRIPTS**.</br>
   ![contentsecuritypolicy](2.jpg)
    
 3. Under **Managed by Customer** tab, click **New**.</br>
