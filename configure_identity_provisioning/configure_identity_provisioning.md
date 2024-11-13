@@ -61,5 +61,5 @@
  * **User**: <--**clientid** from key file downloaded earlier-->
  * **Password**: <--**clientsecret** from key file downloaded earlier--></br>
  ![configure_ips](11.jpg)
- 
- 7. Click **Save**.
+
+7. Click **Save**.
