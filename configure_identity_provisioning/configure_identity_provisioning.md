@@ -54,12 +54,10 @@
 5. From the **Source System** dropdown make sure to select the source system created earlier.  For e.g. **S4-myXXXXX-source-joule**.</br>  
 ![configure_ips](10.jpg)
 
-6. Switch to the **Properties** tab and update the following placeholders with the appropriate values for your system:
+6. Switch to the **Properties** tab and update the following placeholders with the appropriate values for your system and click **Save**:
  * **cflp.providerId**: <-- **ID** of the S/4 content provider created in Work Zone by the Joule booster. -->
  * **URL**: <--**portal-service** url from the key file downloaded earlier when we create Work Zone instance in BTP-->
  * **OAuth2TokenServiceURL**: <--**url** field from the key file downloaded earlier.  Make sure to add **/oauth/token** to end of the URL-->
  * **User**: <--**clientid** from key file downloaded earlier-->
  * **Password**: <--**clientsecret** from key file downloaded earlier--></br>
  ![configure_ips](11.jpg)
-
-7. Click **Save**.
