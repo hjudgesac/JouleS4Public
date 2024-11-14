@@ -1,4 +1,4 @@
-## **Configure SuccessFactors as Source System in Identity Provisioning**
+## **Configure SAP S/4HANA Cloud Public Edition as a Source System in Identity Provisioning**
 
 1. Download [**IdentityProvisioningFilesS4C.zip**](https://github.com/hjudgesac/JouleS4Public/raw/main/configure_identity_provisioning/files/IdentityProvisioningFilesS4C.zip) that contains the pre-defined source and target systems required to setup this configuration.</br>
 **Note**: A file should be automatically downloaded into your downloads folder.
