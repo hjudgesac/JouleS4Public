@@ -1,4 +1,4 @@
-1. Access **Communication Systems** application.</br>
+1. If necessary, access **Communication Systems** application.</br>
 ![createcommsystem](1.png)
 
 2. Click the **New** button.</br>
