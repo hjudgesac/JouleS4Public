@@ -4,7 +4,7 @@
 2. Click the **New** button.</br>
 ![createcommsystem](2.png)
 
-3. Specify a **SystemID** and **System Name** and click **Create**.
+3. Specify a **SystemID** and **System Name** and click **Create**.</br>
 ![createcommsystem](3.png)
 
 4. In the **Host Name** field, specify your SAP Cloud Identity Services host name.</br>
