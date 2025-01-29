@@ -35,4 +35,4 @@
 ![createcommsystem](11.png)
 
 16. For **Communication Systems**, select the communicaton system created earier.  Ensure the **User Name** field is populated with communication user created earlier and click **Save**</br>
-17. ![createcommsystem](14.png)
+![createcommsystem](14.png)
