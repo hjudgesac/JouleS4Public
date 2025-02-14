@@ -1,4 +1,4 @@
-1. If necessary, launch **Communication Systems** application.</br>
+1. Launch **Communication Systems** application if it's not already open.</br>
 ![createcommsystem](1.png)
 
 2. Click the **New** button.</br>
