@@ -1,3 +1,4 @@
+For a complete list of supported use cases, see [3545050 - List of Business Objects Enabled for Joule in SAP S/4HANA Cloud Public Edition](https://me.sap.com/notes/3545050)
 1. Access your SAP S/4HANA Cloud Public Edition System and the click the **Joule** icon.</br>
 ![testJoule](1.jpg)
 
